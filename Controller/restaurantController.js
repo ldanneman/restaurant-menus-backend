@@ -9,7 +9,6 @@ const updateData = (req, res) => {
   //   fs.unlinkSync("./Data/restaurantData.json");
   //   fs.writeFileSync("./Data/restaurantData.json", JSON.stringify(req.body));
   //   console.log(req.body);
-  //   res.send(req.body);
   fs.writeFile(
     "./Data/restaurantData.json",
     JSON.stringify(req.body),
@@ -17,6 +16,7 @@ const updateData = (req, res) => {
       if (err) return console.log(err);
     }
   );
+  res.send(req.body);
 };
 
 module.exports = {
