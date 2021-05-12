@@ -1,14 +1,17 @@
-const data = require("../Data/restaurantData");
+const data = require("../Data/restaurantData.json");
 const fs = require("fs");
 
 const restData = (req, res) => {
-  res.send(data.restaurantsData);
+  res.send(data);
 };
 
 const updateData = (req, res) => {
-  res.send(req.body);
+  //   fs.unlinkSync("./Data/restaurantData.json");
+  //   fs.writeFileSync("./Data/restaurantData.json", JSON.stringify(req.body));
+  //   console.log(req.body);
+  //   res.send(req.body);
   fs.writeFile(
-    "./Data/restaurantData.js",
+    "./Data/restaurantData.json",
     JSON.stringify(req.body),
     function (err) {
       if (err) return console.log(err);
