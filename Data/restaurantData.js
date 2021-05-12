@@ -3,39 +3,39 @@ const restaurantsData = [
     _id: 1,
     restaurant: "McDonald's",
     img:
-      "https://res.cloudinary.com/coolps811/image/upload/v1620465680/jzrmelpuqg1ptcyou1o4.png",
+      "https://res.cloudinary.com/coolps811/image/upload/v1620747487/sdffj30lwmptcfmtn2v2.png",
     menus: [
       {
-        menu_name: "Entrée",
+        menu_name: "Breakfast",
         menu: [
           {
-            name: "Soup",
-            price: 14.99,
-          },
-          {
-            name: "Chips & Salsa",
+            name: "Egg McMuffin",
             price: 7.99,
           },
           {
-            name: "Chicken Nuggets",
-            price: 12.99,
+            name: "Big Breakfast",
+            price: 12.94,
+          },
+          {
+            name: "Hot Cakes",
+            price: 9.99,
           },
         ],
       },
       {
-        menu_name: "Main",
+        menu_name: "Burgers",
         menu: [
           {
-            name: "Salad",
-            price: 14.99,
+            name: "Big MAc",
+            price: 9.99,
           },
           {
-            name: "Burger",
-            price: 32.99,
+            name: "Quarter Pounder",
+            price: 7.99,
           },
           {
-            name: "Pasta",
-            price: 23.99,
+            name: "McDouble",
+            price: 12.94,
           },
         ],
       },
@@ -43,16 +43,16 @@ const restaurantsData = [
         menu_name: "Dessert",
         menu: [
           {
-            name: "Ice Cream",
+            name: "Chocolate Shake",
             price: 14.99,
           },
           {
-            name: "Chocolate Moose",
-            price: 17.99,
+            name: "McFlurry",
+            price: 11.94,
           },
           {
-            name: "Popsicle",
-            price: 7.99,
+            name: "Hot Caramel Sundae",
+            price: 8.99,
           },
         ],
       },
@@ -65,36 +65,36 @@ const restaurantsData = [
       "https://res.cloudinary.com/coolps811/image/upload/v1620464517/o956ozrlbuntmwvhlm0o.png",
     menus: [
       {
-        menu_name: "Entrée",
+        menu_name: "Sides",
         menu: [
           {
-            name: "Soup",
-            price: 14.99,
+            name: "Breadsticks",
+            price: 5.99,
           },
           {
-            name: "Chips & Salsa",
-            price: 7.99,
+            name: "Cheese Sticks",
+            price: 5.29,
           },
           {
-            name: "Chicken Nuggets",
-            price: 12.99,
+            name: "Fries",
+            price: 3.49,
           },
         ],
       },
       {
-        menu_name: "Main",
+        menu_name: "Pizza",
         menu: [
           {
-            name: "Salad",
+            name: "Hand-Tossed",
             price: 14.99,
           },
           {
-            name: "Pizza",
-            price: 24.99,
+            name: "Thin N Crispy",
+            price: 14.99,
           },
           {
-            name: "Pasta",
-            price: 23.99,
+            name: "Stuffed Crust",
+            price: 16.99,
           },
         ],
       },
@@ -102,16 +102,16 @@ const restaurantsData = [
         menu_name: "Dessert",
         menu: [
           {
-            name: "Ice Cream",
-            price: 14.99,
+            name: "HERSHEY’S® Toasted S’mores Cookie",
+            price: 6.99,
           },
           {
-            name: "Chocolate Moose",
-            price: 17.99,
+            name: "HERSHEY’S® Triple Chocolate Brownie",
+            price: 5.99,
           },
           {
-            name: "Popsicle",
-            price: 7.99,
+            name: "The Ultimate HERSHEY’S® Chocolate Chip Cookie",
+            price: 5.99,
           },
         ],
       },
@@ -124,53 +124,53 @@ const restaurantsData = [
       "https://res.cloudinary.com/coolps811/image/upload/v1620465379/we8g0yiipkcjkuo9e6p6.jpg",
     menus: [
       {
-        menu_name: "Entrée",
+        menu_name: "Breakfast",
         menu: [
           {
-            name: "Soup",
-            price: 14.99,
+            name: "Shakshuka in a pan",
+            price: 11.99,
           },
           {
-            name: "Chips & Salsa",
-            price: 7.99,
+            name: "Israeli Breakfast",
+            price: 9.99,
           },
           {
-            name: "Chicken Nuggets",
+            name: "Vegan Breakfast",
             price: 12.99,
           },
         ],
       },
       {
-        menu_name: "Main",
+        menu_name: "Hot Drinks",
         menu: [
           {
-            name: "Salad",
-            price: 9.99,
+            name: "Double Espresso",
+            price: 5.99,
           },
           {
-            name: "Coffee",
+            name: "Cappuccino",
             price: 4.99,
           },
           {
-            name: "Pasta",
-            price: 11.99,
+            name: "Aroma Coffee",
+            price: 5.49,
           },
         ],
       },
       {
-        menu_name: "Dessert",
+        menu_name: "Pastries",
         menu: [
           {
-            name: "Ice Cream",
-            price: 14.99,
+            name: "Chocolate Muffin",
+            price: 4.99,
           },
           {
-            name: "Chocolate Moose",
-            price: 17.99,
+            name: "Chocolate Croissant",
+            price: 4.49,
           },
           {
-            name: "Popsicle",
-            price: 7.99,
+            name: "Halva Pastry",
+            price: 3.99,
           },
         ],
       },
